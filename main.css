@@ -1,0 +1,37 @@
+/* h2{color: blue;}
+p{font-size: 15px;
+  color: green;}
+
+#first{ color: purple;}
+#second{ color: brown;}
+.three{color:blue;}
+.four{color:aqua;}
+ */
+
+p.school {
+  color:green;
+}
+
+.hese .scholl1 {
+  color : green;
+}
+
+.hese1 .scholl1 {
+  color : red;
+  color : red;
+  color : red;
+  color : red;
+  color : red;
+  color : red;
+  color : red;  
+}
+
+.hese2 .scholl1{
+  color: pink;
+}
+
+.phong .name.me{color:red;}
+
+.div1 .phong1{color: red;font-size: 25px;!important}
+.div1 .phong2{color: blue; font-size: 25px;}
+.div1 .phong3{color:yellow;font-size: 25px;}
