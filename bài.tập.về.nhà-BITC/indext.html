@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>bài tập về nhà bitc-html</title>
+        <style>
+            *{margin: 0;
+            padding: 10;}
+            .anh1 .anh{
+                border: none;
+                width: 300px;}
+            html{
+                    font-size: 100%;}
+            body{
+                background-color: rgba(94, 163, 224, 0.627);
+                width: 100%;
+                height: 100%;
+            }
+            input[type="text"]{
+                width: 150px;
+                background-color: rgb(87, 203, 159);
+            }
+            input[placeholder="vui lòng nhập tên bạn"]::placeholder{ 
+                color:rgb(15, 14, 14);
+            }
+            input[placeholder="vui lòng nhập email"]::placeholder{
+                color: black;
+            }
+            input[type="submit"]{
+                background-color: rgb(87, 203, 159);
+            }
+            input[value="Gửi"]{
+                color: rgb(0, 0, 0);
+            }
+           hr{
+            border: none; /* bỏ đường ranh giới */
+            height: 2px;
+            background-color: red;
+           }
+           /* .form-1 input[type="text"]{
+            background-color: black;
+           } */
+        </style>
+    </head>
+    <body>
+        <h1>Giới thiệu về sở thích</h1>
+        <hr>
+        <h2>Nay tôi sẽ nói về sẽ thích của tôi.</h2>
+        <p>Xin chào mọi người tôi là <b>PHONG</b> sở thích tôi là <i>"nấu ăn"</i> bởi vì <u>mỗi khi nấu ăn tôi thấy rất vui và còn giúp tôi cách tập trung khi làm 1 thứ gì đó.</u></p>
+        <p>Mọi người tham khảo đây là trang web tôi học lập trình:<a href="https://fullstack.edu.vn/">F8 FullStack</a></p>
+        <div class="anh1">
+            <img class="anh" src="https://duhoctrawise.edu.vn/wp-content/uploads/2023/09/1-5.jpg" alt="">
+        </div>
+        <ul><b>Các sở thích của tôi:</b>
+            <li>Nấu ăn</li>
+            <li>Bơi</li>
+            <li>Đánh cầu lông</li>
+        </ul>
+        <ol>
+            <li>Du lịch</li>
+            <li>Chơi đùa với con nít</li>
+            <li>Mua sắm</li>
+        </ol>
+        <table cellspacing="10">
+            <thead>
+                <th style="padding-right: 10px;">Lịch học</th>
+                <th style="padding-right: 10px;">Môn học</th>
+                <th style="padding-right: 10px;">Thời gian</th>
+            </thead>
+            <caption></caption>
+            <tbody>
+                <tr>
+                    <td>Thứ 2</td>
+                    <td>Tiếng anh</td>  
+                    <td>12h10-14h10</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="" class="form-1">
+            <label for="text">Tên của bạn:</label>
+            <input type="text" name="text" id="text" placeholder="vui lòng nhập tên bạn"><br><br>
+            <label for="email" style="padding-right: 40px;">Email:</label>
+            <input type="text" name="email" id="email" placeholder="vui lòng nhập email" ><br><br>
+            <input type="submit" value="Gửi">
+        </form>    
+    </body>
+</html>
+
+
+
+
+
+
+
